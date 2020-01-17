@@ -1,4 +1,4 @@
 class Student < ActiveRecord::Base
-  @student.to_s
+  binding.pry
 
 end
