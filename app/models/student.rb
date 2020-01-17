@@ -1,5 +1,6 @@
 class Student < ActiveRecord::Base
   
-  @student = self.first_name + self.last_name 
-
+  def to_s
+    @student = self.first_name + self.last_name 
+  end
 end
