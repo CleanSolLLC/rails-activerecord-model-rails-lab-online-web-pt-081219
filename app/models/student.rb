@@ -1,5 +1,5 @@
 class Student < ActiveRecord::Base
 
-  @student = self.first_name + self.last_name
+  @student = "#{first_name} + #{last_name}"
 
 end
